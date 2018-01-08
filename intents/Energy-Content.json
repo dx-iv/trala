@@ -1,0 +1,45 @@
+{
+  "id": "59466893-dc56-470c-b915-7864cfe39342",
+  "name": "Energy-Content",
+  "auto": true,
+  "contexts": [
+    "energy-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "energy-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c060ed57-a300-4c5c-9dd5-ad0e272a80d3",
+          "required": false,
+          "dataType": "@Content",
+          "name": "Content",
+          "value": "$Content",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page title is : “RESEARCH AREA. energy”\nThe subtitle is : We designed our energy infrastructure nearly a century ago — and we are rapidly outgrowing it. How might we redesign our energy systems to more efficiently serve our needs?\n\nBehind the title section is a black and white image of wind turbines.\n\nI found 3 page sections laid out vertically. Would you like me to read them out or do something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515427632,
+  "fallbackIntent": false,
+  "events": []
+}

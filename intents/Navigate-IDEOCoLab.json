@@ -1,0 +1,43 @@
+{
+  "id": "16f697b5-085a-4a71-9af5-331c049ffd8c",
+  "name": "Navigate-IDEOCoLab",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ideo-colab-page",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "dda9721e-5b94-4bc3-ab6d-837e871a7643",
+          "required": false,
+          "dataType": "@Page",
+          "name": "Page",
+          "value": "$Page",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have loaded the page titled IDEO CoLab. This webpage consists of a navigation bar in the upper right, branding information and aesthetics, visual and textual content, social networking tools, and copyright information. What would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515421611,
+  "fallbackIntent": false,
+  "events": []
+}

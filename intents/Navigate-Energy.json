@@ -1,0 +1,43 @@
+{
+  "id": "d8a13417-fcbd-4706-9c42-f834746d2c75",
+  "name": "Navigate-Energy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "energy-page",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b6d46e71-0ec4-4301-bfb1-164858396758",
+          "required": false,
+          "dataType": "@Page",
+          "name": "Page",
+          "value": "$Page",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have loaded the page titled IDEO CoLab - Energy. This webpage consists of a navigation bar in the upper right, branding information and aesthetics, visual and textual content, social networking tools, and copyright information. What would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515427689,
+  "fallbackIntent": false,
+  "events": []
+}

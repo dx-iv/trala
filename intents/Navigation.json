@@ -1,0 +1,68 @@
+{
+  "id": "177c8279-4df3-46c5-a054-35096710232f",
+  "name": "Navigation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [
+        {
+          "name": "pa",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "team-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "buzz",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Buzz-Content-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "food-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "buzz-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0b06dba8-7e3c-413d-ad07-be8be40f1ff0",
+          "required": false,
+          "dataType": "@Page-Properties",
+          "name": "Page-Properties",
+          "value": "$Page-Properties",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The navigation bar has a horizontal list of four links. The first is Research and it has a vertical sublist of five links titled food, money, energy, transportation and platform technology. The other menu items are team, buzz and members. Where would you like to go?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515422975,
+  "fallbackIntent": false,
+  "events": []
+}

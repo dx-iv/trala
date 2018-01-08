@@ -1,0 +1,48 @@
+{
+  "id": "0017e1c7-2ea6-4dad-8496-215299edd847",
+  "parentId": "7dc85362-8bd8-45e3-80e0-abd165acccd1",
+  "rootParentId": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "name": "IDEOCoLab-Content-ReadAllSections-HumanSystems-Navigate-Food",
+  "auto": true,
+  "contexts": [
+    "IDEOCoLab-Content-ReadAllSections-HumanSystems-followup",
+    "ideo-colab-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDEOCoLab-Content.IDEOCoLab-Content-ReadAll.IDEOCoLab-Content-ReadAllSections-custom.IDEOCoLab-Content-ReadAllSections-HumanSystems-custom",
+      "affectedContexts": [
+        {
+          "name": "food-page",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1a869159-bc01-4050-ab41-094e725eea33",
+          "dataType": "@Page",
+          "name": "Page",
+          "value": "$Page",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

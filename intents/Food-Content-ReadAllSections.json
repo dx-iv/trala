@@ -1,0 +1,40 @@
+{
+  "id": "511f3bc1-3e03-4f1d-8313-ca631443db8c",
+  "parentId": "cef191f5-979a-4882-b039-32388c3735dc",
+  "rootParentId": "cef191f5-979a-4882-b039-32388c3735dc",
+  "name": "Food-Content-ReadAllSections",
+  "auto": true,
+  "contexts": [
+    "food-page",
+    "Food-Content-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Food-Content.Food-Content-custom",
+      "affectedContexts": [
+        {
+          "name": "food-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "From top to bottom:\n1) Some of our Key Themes for food in 2017:\n2) food Prototypes\n3) We have the opportunity to change food on a global scale. Let’s be sure we make the most of it."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "623024a0-1d96-43a1-9cac-bc5ec93cf159",
+    "data": [
+      {
+        "text": "all titles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "24b22933-0100-479b-88ec-a92a36e4f961",
+    "data": [
+      {
+        "text": "read titles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ca3d4cf3-2eaf-42f2-af91-f7add066ee5e",
+    "data": [
+      {
+        "text": "read all posts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f482cabd-2f0f-4489-bec0-bf8cc1053c19",
+    "data": [
+      {
+        "text": "all sections",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ed29aab8-585d-485a-88af-9d2e81728c5d",
+    "data": [
+      {
+        "text": "read all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a00408a5-3874-4291-8d72-739f0fc6b8a5",
+    "data": [
+      {
+        "text": "read all sections",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

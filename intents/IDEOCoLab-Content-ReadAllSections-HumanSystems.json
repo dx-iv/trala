@@ -1,0 +1,35 @@
+{
+  "id": "52f28b33-37d5-412b-af80-22498250304d",
+  "parentId": "01f10d78-64c1-4573-86de-740509359763",
+  "rootParentId": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "name": "IDEOCoLab-Content-ReadAllSections-HumanSystems",
+  "auto": true,
+  "contexts": [
+    "ideo-colab-page",
+    "IDEOCoLab-Content-ReadAllSections-followup",
+    "ideo-colab-page-readallsections"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDEOCoLab-Content.IDEOCoLab-Content-ReadAll.IDEOCoLab-Content-ReadAllSections-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Under human systems is a two column vertical list with links to items: money, food, energy, transportation and platform tech. What would you like to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

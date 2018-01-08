@@ -1,0 +1,43 @@
+{
+  "id": "c10d09c3-bfb0-4065-b7f0-8e7cb4a0fabd",
+  "name": "Navigate-Money",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "money-page",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "52799f57-c04f-49b1-92cd-75e52cf99dbe",
+          "required": false,
+          "dataType": "@Page",
+          "name": "Page",
+          "value": "$Page",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have loaded the page titled IDEO CoLab - Money. This webpage consists of a navigation bar in the upper right, branding information and aesthetics, visual and textual content, social networking tools, and copyright information. What would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515422356,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "680f4329-0bf5-4d70-a9de-29fad2bc50c4",
+  "name": "Money-Content",
+  "auto": true,
+  "contexts": [
+    "money-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "money-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Money-Content-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c8e72907-7106-49b2-9e4c-e6be5674ec61",
+          "required": false,
+          "dataType": "@Content",
+          "name": "Content",
+          "value": "$Content",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page title is : “RESEARCH AREA. Money”\nThe subtitle is : Digital currencies. Micro-markets. How might we redesign our money system to work at human scale?\nBehind the title section is a black and white close up image of a bill from nicaragua. \n\nI found 3 page sections laid out vertically. Would you like me to read them all or do something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515426451,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "value": "Aesthetics",
+    "synonyms": [
+      "Aesthetics",
+      "look",
+      "aesthetic",
+      "brand",
+      "visuals"
+    ]
+  },
+  {
+    "value": "Navigation",
+    "synonyms": [
+      "Navigation",
+      "nav",
+      "nav bar"
+    ]
+  },
+  {
+    "value": "Social",
+    "synonyms": [
+      "Social",
+      "facebook",
+      "twitter",
+      "social links",
+      "social media",
+      "share"
+    ]
+  },
+  {
+    "value": "Legal",
+    "synonyms": [
+      "Legal",
+      "copyright",
+      "legal information"
+    ]
+  }
+]

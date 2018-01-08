@@ -1,0 +1,41 @@
+{
+  "id": "d7f36334-88f5-4967-a9b3-0027d2e4ab12",
+  "parentId": "01f10d78-64c1-4573-86de-740509359763",
+  "rootParentId": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "name": "IDEOCoLab-Content-ReadAllSections-CoreTech",
+  "auto": true,
+  "contexts": [
+    "ideo-colab-page",
+    "IDEOCoLab-Content-ReadAllSections-followup",
+    "ideo-colab-page-readallsections"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDEOCoLab-Content.IDEOCoLab-Content-ReadAll.IDEOCoLab-Content-ReadAllSections-custom",
+      "affectedContexts": [
+        {
+          "name": "ideo-colab-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Under Core Technologies is a horizontal list with the words: Blockchains, Artificial Intelligence, Internet of Things, AR/VR. What would you like to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

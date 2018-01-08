@@ -1,0 +1,37 @@
+{
+  "id": "c298c389-81eb-45ed-bb3f-f77b1d1b0d34",
+  "name": "Social",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be59a5a8-3ea0-4f3b-8477-54edcc27fea7",
+          "required": false,
+          "dataType": "@Page-Properties",
+          "name": "Page-Properties",
+          "value": "$Page-Properties",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are links to Twitter, Github and an Email ID. What would you like to do next?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515423529,
+  "fallbackIntent": false,
+  "events": []
+}

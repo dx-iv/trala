@@ -1,0 +1,49 @@
+{
+  "id": "cef191f5-979a-4882-b039-32388c3735dc",
+  "name": "Food-Content",
+  "auto": true,
+  "contexts": [
+    "food-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "food-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Food-Content-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "133fee57-d4f7-49b1-88db-42ce12a4ad74",
+          "dataType": "@Content",
+          "name": "Content",
+          "value": "$Content",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page title is : “RESEARCH AREA. food”\nThe subtitle is : Trusted data. Better understanding. Less waste. We\u0027re exploring how emerging technologies will reshape the incredible complexity of our food system.\n\nBehind the title section is a black and white image of a person at a restaurant with wine glasses. \n\nI found 3 page sections laid out vertically. Would you like me to read them all or do something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515427194,
+  "fallbackIntent": false,
+  "events": []
+}

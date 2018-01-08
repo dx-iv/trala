@@ -1,0 +1,37 @@
+{
+  "id": "d73252bd-a434-48c3-b47a-9ceb65bb4fdc",
+  "name": "Aesthetics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8b96512b-51b9-44c0-9fe0-2762111bebf1",
+          "required": false,
+          "dataType": "@Page-Properties",
+          "name": "Page-Properties",
+          "value": "$Page-Properties",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page colors are black white and electric blue. The logo is a square with the text ideo above it and the text co lab along its borders. What would you like to view next?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515423435,
+  "fallbackIntent": false,
+  "events": []
+}

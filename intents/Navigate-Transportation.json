@@ -1,0 +1,43 @@
+{
+  "id": "a0324d1c-9e40-4b56-8ab6-59201f7c7e8f",
+  "name": "Navigate-Transportation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "transportation-page",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4e6254ef-0231-407c-92d6-5b9a3e7278a9",
+          "required": false,
+          "dataType": "@Page",
+          "name": "Page",
+          "value": "$Page",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have loaded the page titled IDEO CoLab - Transportation. This webpage consists of a navigation bar in the upper right, branding information and aesthetics, visual and textual content, social networking tools, and copyright information. What would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515422397,
+  "fallbackIntent": false,
+  "events": []
+}

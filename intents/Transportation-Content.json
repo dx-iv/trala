@@ -1,0 +1,45 @@
+{
+  "id": "d723088d-3cd5-4c3b-bf63-6b2f6bc10f13",
+  "name": "Transportation-Content",
+  "auto": true,
+  "contexts": [
+    "transportation-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "transportation-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ad4f6529-6fd6-45fe-9b86-fdd6aa746439",
+          "required": false,
+          "dataType": "@Content",
+          "name": "Content",
+          "value": "$Content",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page title is : “RESEARCH AREA. Transportation”\nThe subtitle is : Dense urban grids. Self-driving vehicles. Alternative fuels. How might we redesign mobility to unlock efficiency and urban growth?\n\nBehind the title section is a black and white image of the wires suspended in the sky above a bus stop.\n\nI found 3 page sections laid out vertically. Would you like me to read them out or do something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515427611,
+  "fallbackIntent": false,
+  "events": []
+}

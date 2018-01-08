@@ -1,0 +1,45 @@
+{
+  "id": "d46ebd47-3a67-4268-b5fd-6eb82bfdc0a3",
+  "name": "Legal",
+  "auto": true,
+  "contexts": [
+    "ideo-colab-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ideo-colab-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a9c56f6d-9f24-471f-b754-bd97183d75eb",
+          "required": false,
+          "dataType": "@Page-Properties",
+          "name": "Page-Properties",
+          "value": "$Page-Properties",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The legal information states: Copyright IDEO Colab 2018. Subject to privacy policy. What would you like to view next?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515423492,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "01f10d78-64c1-4573-86de-740509359763",
+  "parentId": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "rootParentId": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "name": "IDEOCoLab-Content-ReadAllSections",
+  "auto": true,
+  "contexts": [
+    "ideo-colab-page",
+    "IDEOCoLab-Content-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDEOCoLab-Content.IDEOCoLab-Content-ReadAll",
+      "affectedContexts": [
+        {
+          "name": "ideo-colab-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ideo-colab-page-readallsections",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "IDEOCoLab-Content-ReadAllSections-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I found 10 page sections.\n1. We help our members do three things.\n2. In 2017 we are exploring.\n3. Core Technologies.\n4. Human Systems.\n5. Research project samples.\n6. Work with Us.\n7. Our Members.\n8. Our Network.\n9. Keep up with us.\n10. Recent Buzz.\n\nWould you like to visit one of them or go somewhere else?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

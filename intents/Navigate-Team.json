@@ -1,0 +1,43 @@
+{
+  "id": "dfef9c5b-237e-4b40-ad76-e390e6b945d9",
+  "name": "Navigate-Team",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "team-page",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "26341a52-f5be-4883-ae3f-ca3343c4baad",
+          "required": false,
+          "dataType": "@Page",
+          "name": "Page",
+          "value": "$Page",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have loaded the page titled IDEO CoLab - Team. This webpage consists of a navigation bar in the upper right, branding information and aesthetics, visual and textual content, social networking tools, and copyright information. What would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515421786,
+  "fallbackIntent": false,
+  "events": []
+}

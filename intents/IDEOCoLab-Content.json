@@ -1,0 +1,50 @@
+{
+  "id": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "name": "IDEOCoLab-Content",
+  "auto": true,
+  "contexts": [
+    "ideo-colab-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ideo-colab-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "IDEOCoLab-Content-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "00efa4a6-df84-43a8-93f0-d7e20476587e",
+          "required": false,
+          "dataType": "@Content",
+          "name": "Content",
+          "value": "$Content",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page title is The CoLab is IDEO\u0027s R and D Network. The subtitle is Research and Design. We bring together like-minded organizations to understand and shape how emerging technologies will affect our world. I found 10 page sections. Two very popular sections are Core Technologies and Human Systems. Would you like me to read all their titles or search for a particular section?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515424234,
+  "fallbackIntent": false,
+  "events": []
+}

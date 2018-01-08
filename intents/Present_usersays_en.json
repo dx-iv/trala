@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2fce2e67-bf08-41c2-a6c1-9e7ed91d806e",
+    "data": [
+      {
+        "text": "make yourself ",
+        "userDefined": false
+      },
+      {
+        "text": "presentable",
+        "alias": "Presentation",
+        "meta": "@Presentation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1515434642
+  },
+  {
+    "id": "77e827c6-1bd4-4403-8cad-46fc559d2f44",
+    "data": [
+      {
+        "text": "Present",
+        "alias": "Presentation",
+        "meta": "@Presentation",
+        "userDefined": false
+      },
+      {
+        "text": " yourself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1515434642
+  }
+]

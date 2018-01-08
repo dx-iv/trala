@@ -1,0 +1,57 @@
+[
+  {
+    "id": "d8fc636c-542a-43b6-920a-5f321a12a751",
+    "data": [
+      {
+        "text": "take me to core technologies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6d1636ef-64d4-4121-8af7-1ac26cc22af8",
+    "data": [
+      {
+        "text": "show me core technologies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0b155b1b-b23c-4e6a-8206-d5d899d9e32f",
+    "data": [
+      {
+        "text": "Core Tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "53b9dda4-0bf0-46b2-95ff-e16726468b7f",
+    "data": [
+      {
+        "text": "take me to core tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "44ebe73d-f56a-414b-b38d-560fe54133f6",
+    "data": [
+      {
+        "text": "Core Technologies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

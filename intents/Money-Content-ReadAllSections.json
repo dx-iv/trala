@@ -1,0 +1,40 @@
+{
+  "id": "77585f38-9b1b-48b5-8373-b3542f8fe564",
+  "parentId": "680f4329-0bf5-4d70-a9de-29fad2bc50c4",
+  "rootParentId": "680f4329-0bf5-4d70-a9de-29fad2bc50c4",
+  "name": "Money-Content-ReadAllSections",
+  "auto": true,
+  "contexts": [
+    "money-page",
+    "Money-Content-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Money-Content.Money-Content-custom",
+      "affectedContexts": [
+        {
+          "name": "money-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "From top to bottom, the sections are:\n1) Some of our Key Themes for Money in 2017\n2) Money Prototypes\n3) Physical, digital, public, private. \"How can we design new money systems for sharing, control and trust? \n\nWhat would you like to do next?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

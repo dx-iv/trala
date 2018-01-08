@@ -1,0 +1,40 @@
+{
+  "id": "93c0e625-2ddc-4204-8234-6264432c0bf0",
+  "parentId": "5f5f0386-245e-49fa-a876-e05fb346fc24",
+  "rootParentId": "5f5f0386-245e-49fa-a876-e05fb346fc24",
+  "name": "Buzz-Content-ReadAllSections",
+  "auto": true,
+  "contexts": [
+    "Buzz-Content-followup",
+    "buzz-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Buzz-Content.Buzz-Content-custom",
+      "affectedContexts": [
+        {
+          "name": "buzz-page",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The titles of the blog posts are 1) Living data streams for humans and machines: The rise of IoT devices and big data demands new network infrastructure. One that allows data to flow seamlessly between publisher and subscriber — whether human or machine, 2) A framework for identity. How do you identify yourself? Is it your name? Your email address? Phone number? Drivers license? Facebook account?, 3) What if your apple could talk? Augmented Reality meets food transparency, 4) Landing on the cloud. How Augmented Reality, Virtual Reality and the Internet of Things are pulling the “Cloud” down to earth. Below the list is a button that says load more. What would you like to do next?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

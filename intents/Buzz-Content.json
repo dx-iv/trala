@@ -1,0 +1,49 @@
+{
+  "id": "5f5f0386-245e-49fa-a876-e05fb346fc24",
+  "name": "Buzz-Content",
+  "auto": true,
+  "contexts": [
+    "buzz-page"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "buzz-page",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Buzz-Content-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ac8aa940-975b-453b-924f-34ce24aced84",
+          "dataType": "@Content",
+          "name": "Content",
+          "value": "$Content",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The page title is :”buzz buzz”\nThe subtitle is : Whether writing about what we\u0027re building, or what our network is doing, we\u0027re passionate about telling stories about technology and humans.\n\nBehind the title section is a crowd in an office or classroom, in the middle is a lively person holding a microphone.\n\nI found 1 page section that consists of a list of blog posts. Would you like me to read the titles of the blog posts, search for one by title or go somewhere else?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515426778,
+  "fallbackIntent": false,
+  "events": []
+}

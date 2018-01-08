@@ -1,0 +1,39 @@
+{
+  "id": "f49db800-14ad-49b6-81db-40cb0f801fd3",
+  "name": "Present",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f16719f2-e716-4139-a61d-b256edc8bfaf",
+          "required": false,
+          "dataType": "@Presentation",
+          "name": "Presentation",
+          "value": "$Presentation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi, I am Trala! Nice to meet all of you at eye-deo.\n\nI am a web browser optimized for vocal and voice browsing. For visually impaired or hands-free web users, I am the new way to surf the web. My machine learning algorithms analyze the visual structure of websites and convert it into a conversational user interface. \n\nMy engine tags all visual elements of a website including images, text layout, and aesthetics, and translates them into a verbal equivalent. These elements are restructured within our conversation so that the structural informational design of the page remains intact—even if websites are not built to be accessible. I also optimize your browsing experience by learning contextually-relevant frequently performed actions on websites and prioritizing them in my UI.\n\nI also come with built in developer tools so that web developers can easily convert conventional websites into robust and beautiful sites compatible with conversational browsing. I use these optimizations by developers for their individual pages to improve my learning models and offer a better consumer-side experience for each and every website.\n\nFor investment opportunities, talk to my team. Thanks for listening!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515434642,
+  "fallbackIntent": false,
+  "events": []
+}

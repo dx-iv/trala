@@ -1,0 +1,46 @@
+{
+  "id": "383086f1-fb22-4df5-8eeb-9e4af29851ab",
+  "parentId": "01f10d78-64c1-4573-86de-740509359763",
+  "rootParentId": "4962e2a3-7391-4c4b-ae32-1212feaef674",
+  "name": "IDEOCoLab-Content-ReadAllSections-Recommendation",
+  "auto": true,
+  "contexts": [
+    "ideo-colab-page",
+    "IDEOCoLab-Content-ReadAllSections-followup",
+    "ideo-colab-page-readallsections"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDEOCoLab-Content.IDEOCoLab-Content-ReadAll.IDEOCoLab-Content-ReadAllSections-custom",
+      "affectedContexts": [
+        {
+          "name": "IDEOCoLab-Content-ReadAllSections-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "IDEOCoLab-Content-ReadAllSections-Recommendation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The most popular options are core technologies and human systems. I would recommend visiting one of them."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}
